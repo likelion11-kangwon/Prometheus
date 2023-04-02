@@ -5,6 +5,7 @@ body {
     margin: 0;
     place-items: center;
     padding-left: 0%;
+    margin: 0;
 }
 
 .test {
@@ -36,3 +37,8 @@ body {
     width: 100vw;
     height: 10vw;
 }
+/*
+@media nav(width:500px;) {
+
+}
+*/
