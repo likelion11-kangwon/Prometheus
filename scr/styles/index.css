@@ -1,0 +1,54 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.color_1
+{
+    font-size: 5vw;
+    color: #508A92;
+}
+
+img
+{
+    margin: 1vw;
+}
+
+.main-img
+{
+    width: 10vw;
+    height: 10vw;
+    align-items: center;
+    text-align: center;
+}
+
+.sns-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sns-box {
+    margin: 5vw;
+}
+
+.sns-link
+{
+    margin: 1vw;
+    float: left;
+}
+
+.info-box
+{
+    float: unset;
+}
+
+.nextln
+{
+    clear: both;
+}
