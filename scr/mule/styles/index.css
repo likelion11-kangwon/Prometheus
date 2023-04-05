@@ -1,5 +1,12 @@
+*
+{
+    font-family: sans-serif;
+}
+
 body
 {
+    margin: 0;
+    color:#508A92;
     background-color: rgb(255, 255, 255);
     text-align: center;
     align-content: center;
@@ -12,13 +19,22 @@ body
     color: #508A92;
 }
 
+
+
 .sns-box img
 {
     margin: 1vw;
-    width: 8vw;
-    height: 8vw;
+    width: 6vw;
+    height: 6vw;
 }
 
+.back
+{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(121, 243, 229, 0.2);
+    position: absolute; 
+}
 .main-img
 {
     width: 15vw;
