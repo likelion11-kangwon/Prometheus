@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
 
 @media screen and (width <= 700px){
     .header {
@@ -10,16 +15,22 @@
     
 }
 
+body {
+    margin: 10vw;
+}
+
 section {
+    font-family: 'Pretendard-Regular';
     color: rgb(64, 80, 89);
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
-.header {
+#over {
+    padding: 30px;
     font-size: 50px;
-
+    
 }
 
 .serch {
@@ -70,32 +81,37 @@ section {
 
 
 .info-box {
-    padding: 3vw;
+    padding: 30px;
     
     color: rgba(91, 81, 81, 0.8);
     mix-blend-mode: multiply;
 }
 
+.highlight {
+    color: #8CC8FF;
+    font-weight: 900;
+}
+
 #soon {
     display: blok;
-    background-color: #ffee96;
+    border: 6px solid rgb(255, 238, 150, 50);
     
     padding: 10px;
-    border-radius: 3vw;
+    border-radius: 30px;
 }
 
 #mule {
-    display: none;
-    background-color: #8CC8FF;
+    display: block;
+    border: 6px solid rgb(140, 255, 248, 50);
     
     padding: 10px;
-    border-radius: 3vw;
+    border-radius: 30px;
 }
 
 #gomdure {
     display: none;
-    background-color: #CF9FFF;
-    
+    border: 6px solid rgb(155, 191, 255, 50);
+    opacity: 1;
     padding: 10px;
-    border-radius: 3vw;
+    border-radius: 30px;
 }
