@@ -1,6 +1,16 @@
-*
-{
+@keyframes wave {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@font-face {
     font-family: sans-serif;
+    src: url();
 }
 
 body
@@ -11,28 +21,64 @@ body
     text-align: center;
     align-content: center;
     align-items: center;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    background-color: rgba(121, 243, 229, 0.2);
+}
+
+.nav a {
+    margin: 2vw;
+    font-size: 80%;
+    color: #508A92;
 }
 
 .color_1
 {
     font-size: 5vw;
     color: #508A92;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
 }
 
+.move_1 {
+    animation: wave 1.75s linear infinite;
+    position: relative;
+}
 
+.move_2 {
+    animation: wave 1.5s linear infinite;
+    position: absolute;
+}
+
+.move_3 {
+    animation: wave 2s linear infinite;
+    position: absolute;
+}
 
 .sns-box img
 {
     margin: 1vw;
-    width: 6vw;
-    height: 6vw;
+    margin-top: 5vw;
+    width: 10vw;
+    height: 10vw;
 }
 
 .back
 {
     width: 100vw;
-    height: 100vw;
+    height: 200vh;
     background-color: rgba(121, 243, 229, 0.2);
+    position: absolute; 
+}
+.back_2
+{
+    width: 100vw;
+    height: 200vh;
+    background-color: rgba(120, 190, 255, 0.2);
     position: absolute; 
 }
 .main-img
@@ -47,6 +93,7 @@ body
     
     justify-content: center;
     align-items: center;
+    margin-bottom: 10vw;
 
 }
 
@@ -58,10 +105,16 @@ body
 
 .info-box
 {
-    float: unset;
+    margin: 10vw;
+    font-weight: 500;
+    text-align: center;
+    font-size: 19px;
 }
 
-.nextln
-{
-    clear: both;
+.mager {
+    display: flex; 
+    justify-content: center;
+    font-size: medium;
+    font-weight: 900;
+    
 }

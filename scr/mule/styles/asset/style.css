@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: rgb(62, 139, 149);
+}
+
+.main {
+    font-size: medium;
+    color: rgb(62, 139, 149);
+}
+
+.footer {
+    text-align: right;
+    color: black;
+}
