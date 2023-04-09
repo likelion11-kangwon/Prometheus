@@ -38,26 +38,67 @@ section {
 }
 
 .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #ffffff;
+    align-items: center;
+}
+
+.icon-no {
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3), 0 2px 0px rgba(255,255,255,0.4) inset, 0 -2px 0px rgba(0,0,0,0.5) inset;
+    border-radius: 100px;
+    transition: 0.2s ease-in-out;
 
 }
 
-.icon-1 {
+.icon-no:hover{
+    transform: translate(0, -10px);
+}
+
+.icon-no1{
+    background-image: url(Group\ 90.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
-.icon-2 {
+.icon-no2 {
+
+    background-image: url(Ellipse\ 37.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.icon-no3 {
+    background-image: url("./asset/icon_mule.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
-.icon-3 {
+.icon-no4 {
+    background-image: url(Ellipse\ 38.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
-.icon-4 {
-
-}
-
-.icon-5 {
+.icon-no5 {
+    background-image: url("./asset/icon_park.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
