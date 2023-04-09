@@ -1,7 +1,4 @@
-@font-face {
-    font-family: ;
-    src: url();
-}
+
 
 @media screen and (width <= 700px){
     .header {
@@ -15,8 +12,9 @@
 
 section {
     color: rgb(64, 80, 89);
-    align-items: center;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -53,5 +51,51 @@ section {
 }
 
 .icon-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: medium;
+    color: rgb(78, 88, 128);
+}
+
+.bold {
+    padding-bottom: 5px;
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 5px;
+    color: rgba(191, 133, 165, 0.8);
+    mix-blend-mode: multiply;
+    border-bottom: 3px solid rgba(255, 150, 150, 0.2);
+}
+
+
+.info-box {
+    padding: 3vw;
     
+    color: rgba(91, 81, 81, 0.8);
+    mix-blend-mode: multiply;
+}
+
+#soon {
+    display: blok;
+    background-color: #ffee96;
+    
+    padding: 10px;
+    border-radius: 3vw;
+}
+
+#mule {
+    display: none;
+    background-color: #8CC8FF;
+    
+    padding: 10px;
+    border-radius: 3vw;
+}
+
+#gomdure {
+    display: none;
+    background-color: #CF9FFF;
+    
+    padding: 10px;
+    border-radius: 3vw;
 }
