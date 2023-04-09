@@ -26,26 +26,77 @@ section {
 }
 
 .icons {
+    background: #ffffff;
+    width: 550px;
+    margin: 100px auto;
+   
+}
+
+.icon-no {
+    
+    float: left;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3), 0 2px 0px rgba(255,255,255,0.4) inset, 0 -2px 0px rgba(0,0,0,0.5) inset;
+    border-radius: 100px;
+    transition: 0.2s ease-in-out;
 
 }
 
-.icon-1 {
+.icon-no i {
+    display: block;
+    z-index: 1;
+    color: #f71d1d;
+    line-height: 100px;
+    font-size: 60px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.icon-no:hover{
+    transform: translate(0, -10px);
+}
+
+.icon-no1{
+    background-image: url(Group\ 90.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
 .icon-2 {
 
+    background-image: url(Ellipse\ 37.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 }
 
 .icon-3 {
+    background-image: url(Group\ 92.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
 .icon-4 {
+    background-image: url(Ellipse\ 38.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
 .icon-5 {
+    background-image: url(Group\ 91.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
