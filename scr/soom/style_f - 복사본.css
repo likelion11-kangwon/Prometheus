@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+
+}
+
+
+
+/*section*/
+.sec{
+    
+    position: relative;
+    height : 600px;
+   
+    text-align: center;
+    padding:100px 0;
+    background: color #fefff8;
+
+    background-image: url(Untitled-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+
+
+}
+
+.img{
+    object-fit: cover;
+}
