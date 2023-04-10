@@ -26,18 +26,17 @@ section {
 }
 
 .icons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     background: #ffffff;
-    width: 550px;
-    margin: 100px auto;
-   
+    align-items: center;
 }
 
 .icon-no {
-    
-    float: left;
     position: relative;
     overflow: hidden;
-    text-align: center;
     width: 100px;
     height: 100px;
     margin: 10px;
@@ -77,15 +76,16 @@ section {
 }
 
 .icon-no3 {
-    background-image: url(Group_92.png);
+    background-image: url("./asset/icon_mule.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
 
 }
 
+
 .icon-no4 {
-    background-image: url(Ellipse_38.png);
+    background-image: url("./asset/icon_mule.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
@@ -93,7 +93,7 @@ section {
 }
 
 .icon-no5 {
-    background-image: url(Group_91.png);
+    background-image: url("./asset/icon_park.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
