@@ -16,7 +16,7 @@
 }
 
 body {
-    margin: 10vw;
+    margin: 5vh;
 }
 
 section {
@@ -27,11 +27,11 @@ section {
     align-items: center;
 }
 
-#over {
-    padding: 30px;
-    font-size: 50px;
-    
+.header {
+    font-size: 80px;
+    padding-top: 1vh;
 }
+
 
 .serch {
 
@@ -40,62 +40,67 @@ section {
 .icons {
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
     text-align: center;
     align-items: center;
     background: #ffffff;
     align-items: center;
 }
 
-.icon-no {
+.icon-1 {
     position: relative;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3), 0 2px 0px rgba(255,255,255,0.4) inset, 0 -2px 0px rgba(0,0,0,0.5) inset;
+    width: 80px;
+    height: 80px;
+    margin: 1vw;
     border-radius: 100px;
     transition: 0.2s ease-in-out;
 
 }
 
-.icon-no:hover{
-    transform: translate(0, -10px);
+.icon-2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 1vw;
+    border-radius: 100px;
 }
 
-.icon-no1{
-    background-image: url(Group\ 90.png);
+.icon-1:hover{
+    transform: translate(0, 10px);
+}
+
+.icon-soon {
+    background-image: url("./asset/icon_soon.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
 
 }
 
-.icon-no2 {
-
-    background-image: url(Ellipse\ 37.png);
+.icon-green {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    border: 5px solid rgba(169, 255, 132, 0.5);
 }
 
-.icon-no3 {
-    background-image: url("./asset/icon_mule.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center
-
-}
-
-.icon-no4 {
-    background-image: url(Ellipse\ 38.png);
+.icon-mule {
+    background-image: url("./asset/icon_mule.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
 
 }
 
-.icon-no5 {
-    background-image: url("./asset/icon_park.png");
+.icon-blue {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid rgba(140, 213, 255, 0.5);
+}
+
+.icon-park {
+    background-image: url("./asset/icon_pack.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center
@@ -110,21 +115,20 @@ section {
     color: rgb(78, 88, 128);
 }
 
+
 .bold {
     padding-bottom: 5px;
     font-weight: 800;
     font-size: 25px;
     padding-top: 5px;
-    color: rgba(191, 133, 165, 0.8);
-    mix-blend-mode: multiply;
-    border-bottom: 3px solid rgba(255, 150, 150, 0.2);
+    color: rgba(65, 65, 65, 0.8);
 }
 
 
 .info-box {
     padding: 30px;
     
-    color: rgba(91, 81, 81, 0.8);
+    color: rgba(98, 98, 98, 0.8);
     mix-blend-mode: multiply;
 }
 
@@ -134,16 +138,16 @@ section {
 }
 
 #soon {
-    display: blok;
-    border: 6px solid rgb(255, 238, 150, 50);
+    display: none;
+    border: 6px solid rgb(255, 238, 150, 0.5);
     
     padding: 10px;
     border-radius: 30px;
 }
 
 #mule {
-    display: block;
-    border: 6px solid rgb(140, 255, 248, 50);
+    display: none;
+    border: 6px solid rgb(140, 255, 248, 0.5);
     
     padding: 10px;
     border-radius: 30px;
@@ -151,7 +155,7 @@ section {
 
 #gomdure {
     display: none;
-    border: 6px solid rgb(155, 191, 255, 50);
+    border: 6px solid rgb(155, 191, 255, 0.5);
     opacity: 1;
     padding: 10px;
     border-radius: 30px;

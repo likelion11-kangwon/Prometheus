@@ -1,24 +1,31 @@
 
 window.onload = function() {
+    var soon = document.getElementById("soon");
+    var mule = document.getElementById("mule");
+    var gomdure = document.getElementById("gomdure");   
+
     var vital = false;
-    document.getElementById("over").addEventListener("mouseover", function() {
-        if (vital==true) return;
-        vital = true;
-        var gomdure = document.getElementById("gomdure");
-        gomdure.style.opacity = 0;
-        gomdure.style.display = "block";
-        var opacity = 0;
-        var roof = setInterval(function() {
-            opacity += 0.1;
-            gomdure.style.opacity = opacity;
-            if (opacity >= 1) {
-                clearInterval(roof);
-                vital = false;
-            }
-        }, 100);
-        
+    document.getElementById("over-soon").addEventListener("mouseover", function() {
+        soon.style.display = "block";
     });
-    document.getElementById("over").addEventListener("mouseleave", function() {
-        document.getElementById("gomdure").style.display = "none"
-    })
+
+    document.getElementById("over-mule").addEventListener("mouseover", function() {
+        mule.style.display = "block"        
+    });
+
+    document.getElementById("over-park").addEventListener("mouseover", function() {
+        gomdure.style.display = "block"        
+    });
+
+    document.getElementById("over-soon").addEventListener("mouseleave", function() {
+        soon.style.display = "none"
+    });
+
+    document.getElementById("over-mule").addEventListener("mouseleave", function() {
+        mule.style.display = "none"
+    });
+
+    document.getElementById("over-park").addEventListener("mouseleave", function() {
+        gomdure.style.display = "none"
+    });
 }
