@@ -28,6 +28,9 @@ body
     display: flex;
     justify-content: right;
     background-color: rgba(121, 243, 229, 0.2);
+    padding: 10px;
+    border: 1;
+    border-color: black;
 }
 
 .nav a {

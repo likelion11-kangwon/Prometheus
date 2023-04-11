@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+
+}
+
+/* header */
+
+.hd{
+    
+    position: relative;
+    height : 400px;
+    text-align: center;
+    background: color #fefff8;
+}
+
+.hd-title{
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top:200px;
+}
+
+.hd-content{
+    font-size: 25px;
+}
+
+/*section*/
+.sec{
+    
+    position: relative;
+    height : 600px;
+   
+    text-align: center;
+    padding:100px 0;
+    background: color #fefff8;
+
+    background-image: url(Untitled.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+
+
+}
+
+.img{
+    object-fit: cover;
+}

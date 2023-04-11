@@ -1,23 +1,35 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
-@media screen {
 
+@media screen and (width <= 700px){
+    .header {
+        font-size: 40px;
+    }
 }
 
 @keyframes identifier {
 
 }
 
+body {
+    margin: 5vh;
+}
+
 section {
+    font-family: 'Pretendard-Regular';
     color: rgb(64, 80, 89);
-    align-items: center;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
+
     font-size: 200px;
     font-weight: lighter;
     padding-top: 5px;
@@ -30,29 +42,125 @@ section {
 }
 
 .icons {
-
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    background: #ffffff;
+    align-items: center;
 }
 
 .icon-1 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 1vw;
+    border-radius: 100px;
+    transition: 0.2s ease-in-out;
 
 }
 
 .icon-2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 1vw;
+    border-radius: 100px;
+}
+
+.icon-1:hover{
+    transform: translate(0, 10px);
+}
+
+.icon-soon {
+    background-image: url("./asset/icon_soon.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
-.icon-3 {
+.icon-green {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid rgba(169, 255, 132, 0.5);
+}
+
+.icon-mule {
+    background-image: url("./asset/icon_mule.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
-.icon-4 {
-
+.icon-blue {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid rgba(140, 213, 255, 0.5);
 }
 
-.icon-5 {
+.icon-park {
+    background-image: url("./asset/icon_pack.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 
 .icon-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: medium;
+    color: rgb(78, 88, 128);
+}
+
+
+.bold {
+    padding-bottom: 5px;
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 5px;
+    color: rgba(65, 65, 65, 0.8);
+}
+
+
+.info-box {
+    padding: 30px;
     
+    color: rgba(98, 98, 98, 0.8);
+    mix-blend-mode: multiply;
+}
+
+.highlight {
+    color: #8CC8FF;
+    font-weight: 900;
+}
+
+#soon {
+    display: none;
+    border: 6px solid rgb(255, 238, 150, 0.5);
+    
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#mule {
+    display: none;
+    border: 6px solid rgb(140, 255, 248, 0.5);
+    
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#gomdure {
+    display: none;
+    border: 6px solid rgb(155, 191, 255, 0.5);
+    opacity: 1;
+    padding: 10px;
+    border-radius: 30px;
 }
