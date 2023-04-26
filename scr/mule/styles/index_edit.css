@@ -1,0 +1,29 @@
+@keyframes wave {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url();
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: #5FB8CC;
+    
+}
+
+@media (max-width: 600px) {
+    
+}
+
+@media (max-width: 1000px) {
+    
+}
